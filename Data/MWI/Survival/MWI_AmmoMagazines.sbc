@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<AmmoMagazines>	
+		
+		<!--Universal-Ammo-Charge-->
+		<AmmoMagazine>
+			<Id>
+				<TypeId>AmmoMagazine</TypeId>
+				<SubtypeId>GenericEnergyCharge</SubtypeId>
+			</Id>
+			<DisplayName>MWI - Universal Energy Charge</DisplayName>
+			<Icon>Textures\universalenergycharge.dds</Icon>
+			<Size>
+				<X>0.2</X>
+				<Y>0.2</Y>
+				<Z>0.2</Z>
+			</Size>
+			<Mass>35</Mass>
+			<Volume>16</Volume>
+			<Model>Models\misc\mwi_EnergyCharge.mwm</Model>
+			<PhysicalMaterial>Ammo</PhysicalMaterial>
+			<Capacity>1</Capacity>
+			<AmmoDefinitionId Subtype="Energy" />
+		</AmmoMagazine>
+
+		<AmmoMagazine>
+			<Id>
+				<TypeId>AmmoMagazine</TypeId>
+				<SubtypeId>MwiUniversalEnergyCharge</SubtypeId>
+			</Id>
+			<DisplayName>MWI - Universal Energy Charge</DisplayName>
+			<Icon>Textures\universalenergycharge.dds</Icon>
+			<Size>
+				<X>0.2</X>
+				<Y>0.2</Y>
+				<Z>0.2</Z>
+			</Size>
+			<Mass>35</Mass>
+			<Volume>16</Volume>
+			<Model>Models\misc\mwi_EnergyCharge.mwm</Model>
+			<PhysicalMaterial>Ammo</PhysicalMaterial>
+			<Capacity>1</Capacity>
+			<AmmoDefinitionId Subtype="MwiUniversalEnergyChargeAmmo" />
+		</AmmoMagazine>
+
+		<AmmoMagazine>
+			<Id>
+				<TypeId>AmmoMagazine</TypeId>
+				<SubtypeId>LaserMagazine_SmallShip</SubtypeId>
+			</Id>
+			<DisplayName>MWI - Energy II</DisplayName>
+			<Icon>Textures\universalenergycharge.dds</Icon>
+			<Size>
+				<X>0.25</X>
+				<Y>0.2</Y>
+				<Z>0.2</Z>
+			</Size>
+			<Mass>35</Mass>
+			<Volume>16</Volume>
+			<Model>Models\misc\mwi_EnergyCharge.mwm</Model>
+			<PhysicalMaterial>Ammo</PhysicalMaterial>
+			<Capacity>1</Capacity>
+			<AmmoDefinitionId Subtype="Energy" />
+		</AmmoMagazine>
+		
+				<AmmoMagazine>
+			<Id>
+				<TypeId>AmmoMagazine</TypeId>
+				<SubtypeId>LargeLaserMagazine_SmallShip</SubtypeId>
+			</Id>
+			<DisplayName>MWI - Energy I</DisplayName>
+			<Icon>Textures\universalenergycharge.dds</Icon>
+			<Size>
+				<X>0.25</X>
+				<Y>0.2</Y>
+				<Z>0.2</Z>
+			</Size>
+			<Mass>35</Mass>
+			<Volume>16</Volume>
+			<Model>Models\misc\mwi_EnergyCharge.mwm</Model>
+			<PhysicalMaterial>Ammo</PhysicalMaterial>
+			<Capacity>1</Capacity>
+			<AmmoDefinitionId Subtype="Energy" />
+		</AmmoMagazine>
+		
+	</AmmoMagazines>
+</Definitions>

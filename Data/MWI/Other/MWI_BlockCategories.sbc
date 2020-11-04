@@ -1,0 +1,56 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CategoryClasses>
+  
+    <Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+      <Id>
+        <TypeId>GuiBlockCategoryDefinition</TypeId>
+        <SubtypeId>MWI2</SubtypeId>
+      </Id>
+      <DisplayName>+ MWI Collection 2</DisplayName>
+      <Name>z-mod-MWI Collection 2</Name>
+      <ItemIds>
+	  <string>XB1BeamBattery</string>
+	  <string>XB3BeamBattery</string>
+	  <string>XB1PulseBattery</string>
+	  <string>XB3PulseBattery</string>
+	  <string>XP1LaserTurret</string>
+	  <string>EX_P1_Cannon</string>
+	  <string>EX1BeamCannon</string>
+	  <string>EX1PointDefense</string>
+
+      </ItemIds>
+    </Category>
+	
+	
+	<Category xsi:type="MyObjectBuilder_GuiBlockCategoryDefinition">
+			<Id>
+				<TypeId>GuiBlockCategoryDefinition</TypeId>
+				<SubtypeId/>
+			</Id>
+					<DisplayName>DisplayName_Category_ShipWeapons</DisplayName>
+					<Name>ShipWeapons</Name>
+					<SearchBlocks>false</SearchBlocks>
+					<IsShipCategory>true</IsShipCategory>
+					<IsBlockCategory>false</IsBlockCategory>
+					<IsToolCategory>true</IsToolCategory>
+				<ItemIds>
+					<!-- Turret Cannons -->
+					<string>XB1BeamBattery</string>
+					<string>XB3BeamBattery</string>
+					<string>XB1PulseBattery</string>
+					<string>XB3PulseBattery</string>
+					<string>XP1LaserTurret</string>
+					<string>EX_P1_Cannon</string>
+					<string>EX1BeamCannon</string>
+				</ItemIds>
+		</Category>
+	
+	
+  </CategoryClasses>
+</Definitions>
+
+
+
+
+

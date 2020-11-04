@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+  
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+		
+		  <Id>
+			<TypeId>LargeMissileTurret</TypeId>
+			<SubtypeId>XP1LaserTurret</SubtypeId>
+		  </Id>
+		  <DisplayName>XP1 - Laser Turret</DisplayName>
+		  <Icon>Textures\Icons\XP1LaserTurret.dds</Icon>
+		  <GuiVisible>true</GuiVisible>
+		  <Description>Laser turret. 
+		  Dist: 800</Description>
+		  <CubeSize>Small</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="3" y="2" z="3" />
+		  <Center x="1" y="0" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Large\XP1_PulseTurret_SmallGrid_Base.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  
+		  
+			<!-- SURVIVAL BALANCE-->
+		  <BuildTimeSeconds>120</BuildTimeSeconds>
+		  <InventoryMaxVolume>0.7308</InventoryMaxVolume> <!-- Holds 2 Mags on 1x -->
+		  <Components>
+			<Component Subtype="SteelPlate" Count="15" />
+			<Component Subtype="Construction" Count="7" />
+			<Component Subtype="LargeTube" Count="3" />
+			<Component Subtype="Motor" Count="10" />
+			<Component Subtype="PowerCell" Count="8" />
+			<Component Subtype="Superconductor" Count="5" />
+			<Component Subtype="Computer" Count="15" />
+			<Component Subtype="Construction" Count="20" />
+			<Component Subtype="SteelPlate" Count="20" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+			<!-- SURVIVAL BALANCE-->
+		  
+		  
+		  <MountPoints>
+			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="3" EndY="3" />
+		  </MountPoints>
+		  <BuildProgressModels>
+			<Model BuildPercentUpperBound="1.00" File="Models\Large\XP1_PulseTurret_SmallGrid_Const.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			<StaticMode>
+			  <PlacementMode>OutsideVoxel</PlacementMode>
+			  <MaxAllowed>0.2</MaxAllowed>
+			  <MinAllowed>0</MinAllowed>
+			</StaticMode>
+			<DynamicMode>
+			  <PlacementMode>OutsideVoxel</PlacementMode>
+			  <MaxAllowed>0.2</MaxAllowed>
+			  <MinAllowed>0.01</MinAllowed>
+			</DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>XP1LaserTurret</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+		  <WeaponDefinitionId Subtype="WeaponSmallLaserTurret" />
+		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleWeapExpl</DamagedSound>
+		  <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+		  <DestroySound>WepLrgWarheadExpl</DestroySound>
+		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
+		  <!--<MinElevationDegrees>-10</MinElevationDegrees>
+		  <MaxElevationDegrees>50</MaxElevationDegrees>
+		  <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+		  <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+		  <RotationSpeed>0.002</RotationSpeed>
+		  <ElevationSpeed>0.002</ElevationSpeed>-->
+		  <MaxRangeMeters>800</MaxRangeMeters>
+		  <AiEnabled>false</AiEnabled>
+		  <IdleRotation>false</IdleRotation>
+		  <EmissiveColorPreset>MWI_Cannons</EmissiveColorPreset>
+		  <MinFov>0.1</MinFov>
+		  <MaxFov>1.04719755</MaxFov>
+		  
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

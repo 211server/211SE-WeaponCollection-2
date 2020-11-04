@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sounds>
+
+ <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>ArcEX1StaticCannon</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>600</MaxDistance>
+      <Loopable>true</Loopable>
+      <PreventSynchronization>0</PreventSynchronization>
+      <DynamicMusicCategory>HeavyFight</DynamicMusicCategory>
+      <DynamicMusicAmount>3</DynamicMusicAmount>
+      <Volume>3</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\EX1Beam_start.wav</Start>
+          <Loop>Audio\EX1Beam_loop.wav</Loop>
+          <End>Audio\EX1Beam_end.wav</End>
+        </Wave>
+      </Waves>
+    </Sound>  
+
+
+  </Sounds>
+</Definitions>

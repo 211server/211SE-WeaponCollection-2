@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Ammos>
+
+		<!--Universal-Ammo-Charge-->
+		<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+			<Id>
+				<TypeId>AmmoDefinition</TypeId>
+				<SubtypeId>MwiUniversalEnergyChargeAmmo</SubtypeId>
+			</Id>
+			<BasicProperties>
+				<DesiredSpeed>40000</DesiredSpeed>
+				<SpeedVariance>0</SpeedVariance>
+				<MaxTrajectory>5</MaxTrajectory>
+				<BackkickForce>0</BackkickForce>
+				<PhysicalMaterial>GunBullet</PhysicalMaterial>
+			</BasicProperties>
+			<ProjectileProperties>
+				<ProjectileTrailScale>0</ProjectileTrailScale>
+				<ProjectileHitImpulse>0</ProjectileHitImpulse>
+				<ProjectileMassDamage>0</ProjectileMassDamage>
+				<ProjectileHealthDamage>0</ProjectileHealthDamage>
+				<HeadShot>true</HeadShot>
+			</ProjectileProperties>
+		</Ammo>
+
+
+
+		<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+			<Id>
+				<TypeId>AmmoDefinition</TypeId>
+				<SubtypeId>LaserCharge_SmallShip</SubtypeId>
+			</Id>
+			<BasicProperties>
+        			<DesiredSpeed>800</DesiredSpeed>
+        			<SpeedVariance>0.01</SpeedVariance>
+        			<MaxTrajectory>1200</MaxTrajectory>
+        			<BackkickForce>500</BackkickForce>
+        			<PhysicalMaterial>GunBullet</PhysicalMaterial>
+     			 </BasicProperties>
+      			<ProjectileProperties>
+        			<ProjectileHitImpulse>5000</ProjectileHitImpulse>
+        			<ProjectileMassDamage>175</ProjectileMassDamage>
+        			<ProjectileHealthDamage>33</ProjectileHealthDamage>
+        			<ProjectileTrailScale>0.9</ProjectileTrailScale>
+					<ProjectileTrailColor x="0.485" y="2.000" z="0.585" />
+					<!-- <ProjectileTrailColor x="0.985" y="0.762" z="0.521" /> Orange -->
+        			<!-- <ProjectileTrailColor x="0.525" y="0.625" z="1.000" /> Silver-Blue (Last Used) -->
+					<!-- <ProjectileTrailColor x="0.425" y="0.525" z="1.000" /> Blue -->
+        			<!-- <ProjectileTrailColor x="1.000" y="0.602" z="0.781" /> Orange-Red -->
+        			<ProjectileTrailProbability>1</ProjectileTrailProbability>
+      			</ProjectileProperties>
+    </Ammo>
+	
+	
+	<Ammo xsi:type="MyObjectBuilder_ProjectileAmmoDefinition">
+			<Id>
+				<TypeId>AmmoDefinition</TypeId>
+				<SubtypeId>LargeLaserCharge_SmallShip</SubtypeId>
+			</Id>
+			<BasicProperties>
+        			<DesiredSpeed>800</DesiredSpeed>
+        			<SpeedVariance>0.01</SpeedVariance>
+        			<MaxTrajectory>1200</MaxTrajectory>
+        			<BackkickForce>500</BackkickForce>
+        			<PhysicalMaterial>GunBullet</PhysicalMaterial>
+     			 </BasicProperties>
+      			<ProjectileProperties>
+        			<ProjectileHitImpulse>7500</ProjectileHitImpulse>
+        			<ProjectileMassDamage>600</ProjectileMassDamage>
+        			<ProjectileHealthDamage>33</ProjectileHealthDamage>
+        			<ProjectileTrailScale>1.35</ProjectileTrailScale>
+					<ProjectileTrailColor x="0.485" y="2.000" z="0.585" />
+					<!-- <ProjectileTrailColor x="0.985" y="0.762" z="0.521" /> Orange -->
+        			<!-- <ProjectileTrailColor x="0.525" y="0.625" z="1.000" /> Silver-Blue (Last Used) -->
+					<!-- <ProjectileTrailColor x="0.425" y="0.525" z="1.000" /> Blue -->
+        			<!-- <ProjectileTrailColor x="1.000" y="0.602" z="0.781" /> Orange-Red -->
+        			<ProjectileTrailProbability>1</ProjectileTrailProbability>
+      			</ProjectileProperties>
+    </Ammo>
+
+	</Ammos>
+</Definitions>

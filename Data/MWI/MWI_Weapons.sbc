@@ -1,0 +1,236 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Weapons>
+		
+
+		
+		
+				<!--PulseBeam-->
+		<Weapon>
+      <Id>
+        <TypeId>WeaponDefinition</TypeId>
+        <SubtypeId>GenericEnergy</SubtypeId>
+      </Id>
+      <ProjectileAmmoData RateOfFire="1" ShootSoundName="WepShipGatlingShot" ShotsInBurst="1" />
+      <ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
+      <DeviateShotAngle>0</DeviateShotAngle>
+      <MuzzleFlashLifeSpan>0</MuzzleFlashLifeSpan>
+      <NoAmmoSoundName>WepShipGatlingNoAmmo</NoAmmoSoundName>
+      <SecondarySoundName>WepShipGatlingRotation</SecondarySoundName>
+      <AmmoMagazines>
+        <AmmoMagazine Subtype="GenericEnergyCharge" />
+      </AmmoMagazines>
+      <ReloadTime>0</ReloadTime>
+    </Weapon>
+
+
+
+
+
+
+
+
+		<Weapon>
+			<Id>
+				<TypeId>WeaponDefinition</TypeId>
+				<SubtypeId>LargePulseBeamWeap232on_XB3</SubtypeId>
+			</Id>
+		    <ProjectileAmmoData RateOfFire="10" ShootSoundName="" ShotsInBurst="1" />
+		    <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+		    <DeviateShotAngle>20</DeviateShotAngle>
+		    <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+		    <AmmoMagazines>
+				<AmmoMagazine Subtype="MwiUniversalEnergyCharge" />
+		    </AmmoMagazines>
+		    <ReloadTime>8000</ReloadTime>
+		</Weapon>
+		
+		<Weapon>
+			<Id>
+				<TypeId>WeaponDefinition</TypeId>
+				<SubtypeId>LargePulseBeamWeapon_XB2</SubtypeId>
+			</Id>
+		    <ProjectileAmmoData RateOfFire="10" ShootSoundName="" ShotsInBurst="1" />
+		    <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+		    <DeviateShotAngle>20</DeviateShotAngle>
+		    <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+		    <AmmoMagazines>
+				<AmmoMagazine Subtype="MwiUniversalEnergyCharge" />
+		    </AmmoMagazines>
+		    <ReloadTime>6000</ReloadTime>
+		</Weapon>
+		
+		<Weapon>
+			<Id>
+				<TypeId>WeaponDefinition</TypeId>
+				<SubtypeId>LargePulseBeamWeapon_XB1</SubtypeId>
+			</Id>
+		    <ProjectileAmmoData RateOfFire="10" ShootSoundName="" ShotsInBurst="1" />
+		    <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+		    <DeviateShotAngle>20</DeviateShotAngle>
+		    <MuzzleFlashLifeSpan>200</MuzzleFlashLifeSpan>
+		    <AmmoMagazines>
+				<AmmoMagazine Subtype="MwiUniversalEnergyCharge" />
+		    </AmmoMagazines>
+		    <ReloadTime>3000</ReloadTime>
+		</Weapon>
+
+		<Weapon>
+			<Id>
+				<TypeId>WeaponDefinition</TypeId>
+				<SubtypeId>SmallPulseBeamWeapon_XP1</SubtypeId>
+			</Id>
+		    <ProjectileAmmoData RateOfFire="30" ShootSoundName="" ShotsInBurst="1" />
+		    <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+		    <DeviateShotAngle>20</DeviateShotAngle>
+		    <MuzzleFlashLifeSpan>200</MuzzleFlashLifeSpan>
+		    <AmmoMagazines>
+				<AmmoMagazine Subtype="MwiUniversalEnergyCharge" />
+		    </AmmoMagazines>
+		    <ReloadTime>1500</ReloadTime>
+		</Weapon>
+		
+		
+						<!--PointLaser-->
+		<Weapon>
+			<Id>
+				<TypeId>WeaponDefinition</TypeId>
+				<SubtypeId>PointLaser_XB2</SubtypeId>
+			</Id>
+		    <ProjectileAmmoData RateOfFire="30" ShootSoundName="" ShotsInBurst="1" />
+		    <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+		    <DeviateShotAngle>20</DeviateShotAngle>
+		    <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+		    <AmmoMagazines>
+				<AmmoMagazine Subtype="MwiUniversalEnergyCharge" />
+		    </AmmoMagazines>
+		    <ReloadTime>2500</ReloadTime>
+		</Weapon>
+		
+		<Weapon>
+			<Id>
+				<TypeId>WeaponDefinition</TypeId>
+				<SubtypeId>PointLaser_XB1</SubtypeId>
+			</Id>
+		    <ProjectileAmmoData RateOfFire="100" ShootSoundName="" ShotsInBurst="1" />
+		    <ReleaseTimeAfterFire>50</ReleaseTimeAfterFire>
+		    <DeviateShotAngle>20</DeviateShotAngle>
+		    <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+		    <AmmoMagazines>
+				<AmmoMagazine Subtype="MwiUniversalEnergyCharge" />
+		    </AmmoMagazines>
+		    <ReloadTime>1000</ReloadTime>
+		</Weapon>
+		
+		<Weapon>
+			<Id>
+				<TypeId>WeaponDefinition</TypeId>
+				<SubtypeId>EXOD</SubtypeId>
+			</Id>
+		    <ProjectileAmmoData RateOfFire="100" ShootSoundName="" ShotsInBurst="1" />
+		    <ReleaseTimeAfterFire>50</ReleaseTimeAfterFire>
+		    <DeviateShotAngle>20</DeviateShotAngle>
+		    <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+		    <AmmoMagazines>
+				<AmmoMagazine Subtype="MwiUniversalEnergyCharge" />
+		    </AmmoMagazines>
+		    <ReloadTime>2000</ReloadTime>
+		</Weapon>
+		
+		
+						<!--BeamBattery-->
+		
+		<Weapon>
+			<Id>
+				<TypeId>WeaponDefinition</TypeId>
+				<SubtypeId>StaticBeamBatteryWeapon_EX1</SubtypeId>
+			</Id>
+		    <ProjectileAmmoData RateOfFire="12" ShootSoundName="" ShotsInBurst="1" />
+		    <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+		    <DeviateShotAngle>20</DeviateShotAngle>
+		    <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+		    <AmmoMagazines>
+				<AmmoMagazine Subtype="MwiUniversalEnergyCharge" />
+		    </AmmoMagazines>
+		    <ReloadTime>10000</ReloadTime>
+		</Weapon>
+
+
+		<Weapon>
+			<Id>
+				<TypeId>WeaponDefinition</TypeId>
+				<SubtypeId>BeamBatteryWeapon_XB3</SubtypeId>
+			</Id>
+		    <ProjectileAmmoData RateOfFire="30" ShootSoundName="" ShotsInBurst="1" />
+		    <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+		    <DeviateShotAngle>20</DeviateShotAngle>
+		    <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+		    <AmmoMagazines>
+				<AmmoMagazine Subtype="MwiUniversalEnergyCharge" />
+		    </AmmoMagazines>
+		    <ReloadTime>15000</ReloadTime>
+		</Weapon>
+		
+		<Weapon>
+			<Id>
+				<TypeId>WeaponDefinition</TypeId>
+				<SubtypeId>BeamBatteryWeapon_XB1</SubtypeId>
+			</Id>
+		    <ProjectileAmmoData RateOfFire="30" ShootSoundName="" ShotsInBurst="1" />
+		    <ReleaseTimeAfterFire>204</ReleaseTimeAfterFire>
+		    <DeviateShotAngle>20</DeviateShotAngle>
+		    <MuzzleFlashLifeSpan>40</MuzzleFlashLifeSpan>
+		    <AmmoMagazines>
+				<AmmoMagazine Subtype="MwiUniversalEnergyCharge" />
+		    </AmmoMagazines>
+		    <ReloadTime>5000</ReloadTime>
+		</Weapon>
+		
+		
+		    <Weapon>
+				<Id>
+					<TypeId>WeaponDefinition</TypeId>
+					<SubtypeId>WeaponSmallLaserTurret</SubtypeId>
+				</Id>
+				<ProjectileAmmoData RateOfFire="1000" ShootSoundName="XP1Laser" ShotsInBurst="8" />  
+				<NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+				<DeviateShotAngle>0.775</DeviateShotAngle>
+				<ReleaseTimeAfterFire>1500</ReleaseTimeAfterFire>
+      				<MuzzleFlashLifeSpan>5000</MuzzleFlashLifeSpan>
+				<ReloadTime>1000</ReloadTime>
+				<AmmoMagazines>
+	  
+					<AmmoMagazine Subtype="LaserMagazine_SmallShip" />
+		
+				</AmmoMagazines>
+			</Weapon>
+			
+			<Weapon>
+				<Id>
+					<TypeId>WeaponDefinition</TypeId>
+					<SubtypeId>WeaponSmallLaserCannon</SubtypeId>
+				</Id>
+				<ProjectileAmmoData RateOfFire="500" ShootSoundName="XP1Laser" ShotsInBurst="5" />  
+				<NoAmmoSoundName>WepPlayRifleNoAmmo</NoAmmoSoundName>
+				<DeviateShotAngle>1.25</DeviateShotAngle>
+				<ReleaseTimeAfterFire>100</ReleaseTimeAfterFire>
+      				<MuzzleFlashLifeSpan>100</MuzzleFlashLifeSpan>
+				<ReloadTime>100</ReloadTime>
+				<AmmoMagazines>
+	  
+					<AmmoMagazine Subtype="LargeLaserMagazine_SmallShip" />
+		
+				</AmmoMagazines>
+			</Weapon>
+		
+
+		
+		
+		
+		
+		
+		
+
+
+	</Weapons>
+</Definitions>

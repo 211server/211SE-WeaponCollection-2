@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+  
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+		
+		  <Id>
+			<TypeId>LargeMissileTurret</TypeId>
+			<SubtypeId>EX1PointDefense</SubtypeId>
+		  </Id>
+		  <DisplayName>EX1 - Point Defense</DisplayName>
+		<Description>[EX] Experimental Anti Missile system.
+		Power Drain: 100MW 
+		Distance: 500m.</Description>
+		  <Icon>Textures\Icons\XB1PointDefense.dds</Icon>
+		  <GuiVisible>true</GuiVisible>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Large\XB1_PointDefense\XB1BeamPoint.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  
+		  
+			<!-- SURVIVAL BALANCE-->
+		  <BuildTimeSeconds>20</BuildTimeSeconds>
+		  <InventoryMaxVolume>0.7308</InventoryMaxVolume> <!-- Holds 2 Mags on 1x -->
+		  <Components>
+			<Component Subtype="SteelPlate" Count="50" />
+			<Component Subtype="Construction" Count="40" />
+			<Component Subtype="LargeTube" Count="15" />
+			<Component Subtype="Motor" Count="10" />
+			<Component Subtype="PowerCell" Count="40" />
+			<Component Subtype="Superconductor" Count="100" />
+			<Component Subtype="Computer" Count="40" />
+			<Component Subtype="Construction" Count="300" />
+			<Component Subtype="MetalGrid" Count="10" />
+			<Component Subtype="SteelPlate" Count="50" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+			<!-- SURVIVAL BALANCE-->
+		  
+		  
+		  <MountPoints>
+			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+		  </MountPoints>
+		  <BuildProgressModels>
+			<Model BuildPercentUpperBound="0.33" File="Models\Large\XB1_PointDefense\XB1BeamPoint_Const1.mwm" />
+			<Model BuildPercentUpperBound="0.66" File="Models\Large\XB1_PointDefense\XB1BeamPoint_Const2.mwm" />
+			<Model BuildPercentUpperBound="1.00" File="Models\Large\XB1_PointDefense\XB1BeamPoint_Const3.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			<StaticMode>
+			  <PlacementMode>OutsideVoxel</PlacementMode>
+			  <MaxAllowed>0.2</MaxAllowed>
+			  <MinAllowed>0</MinAllowed>
+			</StaticMode>
+			<DynamicMode>
+			  <PlacementMode>OutsideVoxel</PlacementMode>
+			  <MaxAllowed>0.2</MaxAllowed>
+			  <MinAllowed>0.01</MinAllowed>
+			</DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>EX1PointDefense</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+		  <WeaponDefinitionId Subtype="BeamBatteryWeapon_XB1" />
+		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleWeapExpl</DamagedSound>
+		  <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+		  <DestroySound>WepLrgWarheadExpl</DestroySound>
+		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
+		  <MinElevationDegrees>0</MinElevationDegrees>
+		  <MaxElevationDegrees>0</MaxElevationDegrees>
+		  <MinAzimuthDegrees>0</MinAzimuthDegrees>
+		  <MaxAzimuthDegrees>0</MaxAzimuthDegrees>
+		  <RotationSpeed>0.0</RotationSpeed>
+		  <ElevationSpeed>0.0</ElevationSpeed>
+		  <MaxRangeMeters>500</MaxRangeMeters>
+		  <AiEnabled>false</AiEnabled>
+		  <IdleRotation>false</IdleRotation>
+		  <EmissiveColorPreset>MWI_Cannons</EmissiveColorPreset>
+		  <MinFov>0.1</MinFov>
+		  <MaxFov>1.04719755</MaxFov>
+		  
+    </Definition>
+	
+	<Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+		
+		  <Id>
+			<TypeId>LargeMissileTurret</TypeId>
+			<SubtypeId>EXODPointDefense</SubtypeId>
+		  </Id>
+		  <DisplayName>-Classified- Point Defense</DisplayName>
+		  <Icon>Textures\Icons\XB1PointDefens.dds</Icon>
+		  <GuiVisible>false</GuiVisible>
+			<Description>-Classified Tech- 
+			01010011 01100101 01100011 
+			01110010 01100101 01110100 
+			00100000 01101110 01110000 
+			01100011 00100000 01110111 
+			01100101 01100001 01110000 
+			01101111 01101110</Description>
+		 
+		  <CubeSize>Large</CubeSize>
+		<Public>true</Public>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="1" y="1" z="1" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Large\XB1_PointDefense\XB1BeamPoint.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  
+		  
+			<!-- SURVIVAL BALANCE-->
+		  <BuildTimeSeconds>120</BuildTimeSeconds>
+		  <InventoryMaxVolume>0.7308</InventoryMaxVolume> <!-- Holds 2 Mags on 1x -->
+		  <Components>
+			<Component Subtype="SteelPlate" Count="50" />
+			<Component Subtype="Construction" Count="40" />
+			<Component Subtype="LargeTube" Count="15" />
+			<Component Subtype="Motor" Count="10" />
+			<Component Subtype="PowerCell" Count="40" />
+			<Component Subtype="Superconductor" Count="100" />
+			<Component Subtype="Computer" Count="40" />
+			<Component Subtype="Construction" Count="300" />
+			<Component Subtype="MetalGrid" Count="10" />
+			<Component Subtype="SteelPlate" Count="50" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+			<!-- SURVIVAL BALANCE-->
+		  
+		  
+		  <MountPoints>
+			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+		  </MountPoints>
+		  <BuildProgressModels>
+			<Model BuildPercentUpperBound="0.33" File="Models\Large\XB1_PointDefense\XB1BeamPoint_Const1.mwm" />
+			<Model BuildPercentUpperBound="0.66" File="Models\Large\XB1_PointDefense\XB1BeamPoint_Const2.mwm" />
+			<Model BuildPercentUpperBound="1.00" File="Models\Large\XB1_PointDefense\XB1BeamPoint_Const3.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			<StaticMode>
+			  <PlacementMode>OutsideVoxel</PlacementMode>
+			  <MaxAllowed>0.2</MaxAllowed>
+			  <MinAllowed>0</MinAllowed>
+			</StaticMode>
+			<DynamicMode>
+			  <PlacementMode>OutsideVoxel</PlacementMode>
+			  <MaxAllowed>0.2</MaxAllowed>
+			  <MinAllowed>0.01</MinAllowed>
+			</DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>EXODPointDefense</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+		  <WeaponDefinitionId Subtype="BeamBatteryWeapon_XB1" />
+		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+		  <DamagedSound>ParticleWeapExpl</DamagedSound>
+		  <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+		  <DestroySound>WepLrgWarheadExpl</DestroySound>
+		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
+		  <MinElevationDegrees>0</MinElevationDegrees>
+		  <MaxElevationDegrees>0</MaxElevationDegrees>
+		  <MinAzimuthDegrees>-0</MinAzimuthDegrees>
+		  <MaxAzimuthDegrees>0</MaxAzimuthDegrees>
+		  <RotationSpeed>0.0</RotationSpeed>
+		  <ElevationSpeed>0.0</ElevationSpeed>
+		  <MaxRangeMeters>150</MaxRangeMeters>
+		  <AiEnabled>false</AiEnabled>
+		  <IdleRotation>false</IdleRotation>
+		  <EmissiveColorPreset>MWI_Cannons</EmissiveColorPreset>
+		  <MinFov>0.1</MinFov>
+		  <MaxFov>1.04719755</MaxFov>
+		  
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>

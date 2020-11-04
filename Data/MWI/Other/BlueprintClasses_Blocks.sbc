@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+ <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"> 
+   <BlueprintClassEntries>
+   
+	<!-- Fixed Cannons -->
+
+	
+	<!-- Turret Cannons -->
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/XB1BeamBattery" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/XB3BeamBattery" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/XB1PulseBattery" />
+		<Entry Class="LargeBlocks" BlueprintSubtypeId="LargeMissileTurret/XB3PulseBattery" />
+		<Entry Class="SmallBlocks" BlueprintSubtypeId="LargeMissileTurret/XP1LaserTurret" />
+	<!-- Defense Turrets -->
+
+		
+  </BlueprintClassEntries>
+</Definitions>

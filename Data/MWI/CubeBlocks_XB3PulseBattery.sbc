@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <CubeBlocks>
+  
+    <Definition xsi:type="MyObjectBuilder_LargeTurretBaseDefinition">
+		
+		  <Id>
+			<TypeId>LargeMissileTurret</TypeId>
+			<SubtypeId>XB3PulseBattery</SubtypeId>
+		  </Id>
+		  <DisplayName>XB3 - Pulse Battery</DisplayName>
+		  <Icon>Textures\Icons\XB3PulseBattery.dds</Icon>
+		  <GuiVisible>true</GuiVisible>
+		  <Description>Explosive pulse laser. 
+		  Power Drain: 300. 
+		  Dist: 4000</Description>
+		  <CubeSize>Large</CubeSize>
+		  <BlockTopology>TriangleMesh</BlockTopology>
+		  <Size x="7" y="3" z="7" />
+		  <Center x="3" y="0" z="3" />
+		  <ModelOffset x="0" y="0" z="0" />
+		  <Model>Models\Large\XB3_PulseBattery_Base.mwm</Model>
+		  <UseModelIntersection>true</UseModelIntersection>
+		  
+		  
+			<!-- SURVIVAL BALANCE-->
+		  <BuildTimeSeconds>120</BuildTimeSeconds>
+		  <InventoryMaxVolume>0.7308</InventoryMaxVolume> <!-- Holds 2 Mags on 1x -->
+		  <Components>
+			<Component Subtype="SteelPlate" Count="800" />
+			<Component Subtype="Construction" Count="150" />
+			<Component Subtype="LargeTube" Count="80" />
+			<Component Subtype="Motor" Count="150" />
+			<Component Subtype="PowerCell" Count="200" />
+			<Component Subtype="Superconductor" Count="250" />
+			<Component Subtype="Computer" Count="225" />
+			<Component Subtype="Construction" Count="150" />
+			<Component Subtype="MetalGrid" Count="120" />
+			<Component Subtype="SteelPlate" Count="600" />
+		  </Components>
+		  <CriticalComponent Subtype="Computer" Index="0" />
+			<!-- SURVIVAL BALANCE-->
+		  
+		  
+		  <MountPoints>
+			<MountPoint Side="Bottom" StartX="0" StartY="0" EndX="7" EndY="7" />
+		  </MountPoints>
+		  <BuildProgressModels>
+			<Model BuildPercentUpperBound="0.33" File="Models\Large\XB3_PulseBattery_Const1.mwm" />
+			<Model BuildPercentUpperBound="0.50" File="Models\Large\XB3_PulseBattery_Const2.mwm" />
+			<Model BuildPercentUpperBound="0.75" File="Models\Large\XB3_PulseBattery_Const3.mwm" />
+			<Model BuildPercentUpperBound="1.00" File="Models\Large\XB3_PulseBattery_Const4.mwm" />
+		  </BuildProgressModels>
+		  <VoxelPlacement>
+			<!--Possible settings Both,InVoxel,OutsideVoxel,Volumetric. If volumetric set than MaxAllowed and MinAllowed will be used.-->
+			<StaticMode>
+			  <PlacementMode>OutsideVoxel</PlacementMode>
+			  <MaxAllowed>0.2</MaxAllowed>
+			  <MinAllowed>0</MinAllowed>
+			</StaticMode>
+			<DynamicMode>
+			  <PlacementMode>OutsideVoxel</PlacementMode>
+			  <MaxAllowed>0.2</MaxAllowed>
+			  <MinAllowed>0.01</MinAllowed>
+			</DynamicMode>
+		  </VoxelPlacement>
+		  <BlockPairName>XB3PulseBattery</BlockPairName>
+		  <MirroringY>Z</MirroringY>
+		  <MirroringZ>Y</MirroringZ>
+		  <EdgeType>Light</EdgeType>
+		  <OverlayTexture>Textures\GUI\Screens\turret_overlay.dds</OverlayTexture>
+		  <WeaponDefinitionId Subtype="GenericEnergy" />
+		  <DamageEffectName>Damage_WeapExpl_Damaged</DamageEffectName>
+			<GeneralDamageMultiplier>0.5</GeneralDamageMultiplier>
+		  <DamagedSound>ParticleWeapExpl</DamagedSound>
+		  <DestroyEffect>Explosion_Warhead_30</DestroyEffect>
+		  <DestroySound>WepLrgWarheadExpl</DestroySound>
+		  <ResourceSinkGroup>Defense</ResourceSinkGroup>
+		  <!--<MinElevationDegrees>-10</MinElevationDegrees>
+		  <MaxElevationDegrees>45</MaxElevationDegrees>
+		  <MinAzimuthDegrees>-180</MinAzimuthDegrees>
+		  <MaxAzimuthDegrees>180</MaxAzimuthDegrees>
+		  <RotationSpeed>0.0006</RotationSpeed>
+		  <ElevationSpeed>0.0006</ElevationSpeed>-->
+		  <MaxRangeMeters>4000</MaxRangeMeters>
+		  <AiEnabled>false</AiEnabled>
+		  <IdleRotation>false</IdleRotation>
+		  <EmissiveColorPreset>MWI_Cannons</EmissiveColorPreset>
+		  <MinFov>0.1</MinFov>
+		  <MaxFov>1.04719755</MaxFov>
+		  
+    </Definition>
+
+  </CubeBlocks>
+</Definitions>
