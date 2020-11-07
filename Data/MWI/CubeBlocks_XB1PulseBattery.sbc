@@ -8,12 +8,12 @@
 			<TypeId>LargeMissileTurret</TypeId>
 			<SubtypeId>XB1PulseBattery</SubtypeId>
 		  </Id>
-		  <DisplayName>XB1 - Pulse Battery</DisplayName>
+		  <DisplayName>XB1 - 脉冲炮塔-mcpt-</DisplayName>
 		  <Icon>Textures\Icons\XB1PulseBattery.dds</Icon>
 		  <GuiVisible>true</GuiVisible>
-		  <Description>Explosive pulse laser. 
-		  Power Drain: 75. 
-		  Dist: 2500</Description>
+		  <Description>爆炸性脉冲激光. 
+能源消耗: 75. 
+射程: 2500</Description>
 		  <CubeSize>Large</CubeSize>
 		  <BlockTopology>TriangleMesh</BlockTopology>
 		  <Size x="3" y="3" z="3" />

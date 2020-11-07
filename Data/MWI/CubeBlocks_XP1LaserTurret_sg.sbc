@@ -8,11 +8,11 @@
 			<TypeId>LargeMissileTurret</TypeId>
 			<SubtypeId>XP1LaserTurret</SubtypeId>
 		  </Id>
-		  <DisplayName>XP1 - Laser Turret</DisplayName>
+		  <DisplayName>XP1 - 激光炮塔-jgpt-</DisplayName>
 		  <Icon>Textures\Icons\XP1LaserTurret.dds</Icon>
 		  <GuiVisible>true</GuiVisible>
-		  <Description>Laser turret. 
-		  Dist: 800</Description>
+		  <Description>激光炮塔. 
+射程: 800</Description>
 		  <CubeSize>Small</CubeSize>
 		  <BlockTopology>TriangleMesh</BlockTopology>
 		  <Size x="3" y="2" z="3" />

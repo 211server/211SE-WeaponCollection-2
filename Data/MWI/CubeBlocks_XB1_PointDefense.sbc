@@ -8,10 +8,10 @@
 			<TypeId>LargeMissileTurret</TypeId>
 			<SubtypeId>EX1PointDefense</SubtypeId>
 		  </Id>
-		  <DisplayName>EX1 - Point Defense</DisplayName>
-		<Description>[EX] Experimental Anti Missile system.
-		Power Drain: 100MW 
-		Distance: 500m.</Description>
+		  <DisplayName>EX1 - 点防御-dfy-</DisplayName>
+		<Description>[EX] 实验性反导弹系统.
+能源消耗: 100MW 
+射程: 500m.</Description>
 		  <Icon>Textures\Icons\XB1PointDefense.dds</Icon>
 		  <GuiVisible>true</GuiVisible>
 		  <CubeSize>Large</CubeSize>

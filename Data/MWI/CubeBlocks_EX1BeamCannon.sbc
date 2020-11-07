@@ -7,11 +7,11 @@
 				<TypeId>SmallMissileLauncher</TypeId>
 				<SubtypeId>EX1BeamCannon</SubtypeId>
 			</Id>
-			<DisplayName>EX1 - Beam Cannon</DisplayName>
+			<DisplayName>EX1 - 光束加农炮-gsjnp-</DisplayName>
 			<Icon>Textures\Icons\EX1BeamCannon.dds</Icon>
-			<Description>[EX] Experimental Static high intensity beam cannon.
-			Power Drain: 120 
-			Dist: 3000.</Description>
+			<Description>[EX] 实验性静态高强度光束加农炮.
+能源消耗: 120 
+射程: 3000.</Description>
 			<CubeSize>Large</CubeSize>
 
 			<BlockTopology>TriangleMesh</BlockTopology>

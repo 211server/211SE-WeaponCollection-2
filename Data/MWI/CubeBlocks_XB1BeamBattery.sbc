@@ -8,12 +8,12 @@
 			<TypeId>LargeMissileTurret</TypeId>
 			<SubtypeId>XB1BeamBattery</SubtypeId>
 		  </Id>
-		  <DisplayName>XB1 - Beam Battery</DisplayName>
+		  <DisplayName>XB1 - 光束炮塔-gspt-</DisplayName>
 		  <Icon>Textures\Icons\XB1BeamBattery.dds</Icon>
 		  <GuiVisible>true</GuiVisible>
-		  <Description>Constant Beam weapon. 
-		  Power Drain: 90. 
-		  Dist: 2500</Description>
+		  <Description>静态光束武器. 
+能源消耗: 90. 
+射程: 2500</Description>
 		  <CubeSize>Large</CubeSize>
 		  <BlockTopology>TriangleMesh</BlockTopology>
 		  <Size x="3" y="3" z="3" />
