@@ -95,7 +95,7 @@
 			<SubtypeId>EXODPointDefense</SubtypeId>
 		  </Id>
 		  <DisplayName>-Classified- Point Defense</DisplayName>
-		  <Icon>Textures\Icons\XB1PointDefens.dds</Icon>
+		  <Icon>Textures\Icons\XB1PointDefense.dds</Icon>
 		  <GuiVisible>false</GuiVisible>
 			<Description>-Classified Tech- 
 			01010011 01100101 01100011 
